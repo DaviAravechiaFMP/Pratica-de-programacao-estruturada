@@ -1,4 +1,4 @@
-Celsius= float(input("Insira a temperatura em Celsius"))
+celsius= float(input("Insira a temperatura em Celsius"))
 
-Fahrenheit = (Celsius -32)*5/9
+fahrenheit = Celsius*1.8 + 32
 print(f"Sua temperatura em Fahrenheit é {Fahrenheit}°")
